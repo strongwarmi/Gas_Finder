@@ -1,0 +1,33 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  color: #fff;
+  font-size: 18px;
+  line-height: 56px;
+  padding: 0 16px 16px;
+  background-color: #F44336;
+}
+
+header .fa-chevron-left {
+  margin-right: 16px;
+}
+
+#search{
+  border: 0;
+  width: 90%;
+}
+#search:focus {
+    border-style: none;
+    border: 0px;
+}
+.form-group{
+    padding: 10px;
+    line-height: 16px;
+    color: gray;
+    background-color: white;
+}
