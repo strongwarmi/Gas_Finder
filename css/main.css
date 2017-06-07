@@ -16,10 +16,15 @@ header {
 header .fa-chevron-left {
   margin-right: 16px;
 }
-
+.containerItem i,
+small{
+    color: dimgray;
+}
 #search{
   border: 0;
   width: 90%;
+    outline-style: none;
+    padding-left: 10px;
 }
 #search:focus {
     border-style: none;
@@ -30,4 +35,11 @@ header .fa-chevron-left {
     line-height: 16px;
     color: gray;
     background-color: white;
+}
+.containerItem{
+    border-bottom: 1px solid lightgray;    
+    padding: 10px;
+}
+.containerItem i{
+    float: right;
 }
