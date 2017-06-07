@@ -5,7 +5,8 @@ const render = (root) => {
   /*const wrapper = $('<div class="wrapper"></div>');
   wrapper.append(Header(_ => render(root)));*/
   root.append(Header(_ => render(root)));
-    root.append(ListadoGas(_ => render(root)));
+    root.append(Buscar(_ => render(root)));
+   // root.append(ListadoGas(_ => render(root)));
 }
 
 const state = {
